@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Desafio css 4</title>
+    <title>MediaQ</title>
     <!-- tipografías-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,29 +11,102 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap"
       rel="stylesheet"
     />
-    <!-- iconos -->
-    <link
-      rel="stylesheet"
-      href="path/to/font-awesome/css/font-awesome.min.css"
-    />
+ <!-- iconos -->
+ <script src="https://kit.fontawesome.com/a38dc4f3f5.js" crossorigin="anonymous"></script>
     <!-- css -->
     <link rel="stylesheet" href="./assets/css/styles.css" />
     <link rel="stylesheet" href="./assets/css/normalize.css" />
   </head>
 
   <body class="body">
-    <!-- contenedor -->
-    <div>
-      <!-- nav -->
-      <nav></nav>
-      <!--main -->
-      <main></main>
-      <!-- articulos -->
-      <article></article>
-      <article></article>
-      <article></article>
-      <!-- footer -->
-      <footer></footer>
+    <div class="grid-container">
+       <!-- contenido nav -->
+      <nav class="navegador">
+        <div class="logo_encabezado">
+          <img class="logo_marca" src="./assets/img/logo.png" alt="">
+        </div>
+        <div class="title_nav"><h2>Mi ecomerce</h2> 
+          <div class="min_menu">
+            <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+          </div>
+      
+       <div class="menu">
+        <button class="button">Catálogo</button>
+        <button class="button">Oferta</button>
+        <button class="button">Contacto</button>
+       </div>
+       
+        
+          
+      </nav>
+      <section class="filtro">
+        <span>Ordenar por</span>
+        <select type="" value="Precio">precio</selection>
+          </select>
+        </section>
+      
+  <!-- contenido main -->
+      <main class="main">
+        <section class="container_card">
+          <article class="card">
+            <img src="./assets/img/001.png" alt="" />
+              <span class="txt_01">CámaraXPro, modelo dfl65</span>
+              <div class="boton"><span>Ver +</span></div>
+          </article>
+          <article class="card">
+            <img src="./assets/img/001.png" alt="" />
+              <span class="txt_01">CámaraXPro, modelo dfl65</span>
+              <div class="boton"><span>Ver +</span></div>
+          </article>
+          <article class="card">
+            <img src="./assets/img/001.png" alt="" />
+              <span class="txt_01">CámaraXPro, modelo dfl65</span>
+              <div class="boton"><span>Ver +</span></div>
+          </article>
+          <article class="card">
+            <img src="./assets/img/001.png" alt="" />
+              <span class="txt_01">CámaraXPro, modelo dfl65</span>
+              <div class="boton"><span>Ver +</span></div>
+          </article>
+          <article class="card">
+            <img src="./assets/img/001.png" alt="" />
+              <span class="txt_01">CámaraXPro, modelo dfl65</span>
+              <div class="boton"><span>Ver +</span></div>
+          </article>
+          <article class="card">
+            <img src="./assets/img/001.png" alt="" />
+              <span class="txt_01">CámaraXPro, modelo dfl65</span>
+              <div class="boton"><span>Ver +</span></div>
+          </article>
+
+        </section>
+        <div class="paginacion">
+          <ul>
+            <li><a>1</a></li>
+            <li><a>2</a></li>
+            <li><a>3</a></li>
+            <li><a>4</a></li>
+            <li><a>5</a></li>
+          </ul>
+        </div>
+
+    
+
+      </main> 
+      
+      
+ <!-- contenido footer -->
+      <footer class="footer">
+        <div>
+          <img src="./assets/img/facebook - copia.svg" alt="">
+          <img src="./assets/img/instagram - copia.svg" alt="">
+        </div>
+        <span class="f-p"> © AV // Todos los derechos reservados </span>
+        
+      </footer>
+        </div>
+       
+
     </div>
   </body>
 </html>
