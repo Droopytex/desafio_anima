@@ -6,7 +6,6 @@
 
 .navegador {
   display: flex;
-
   align-items: center;
   flex-direction: row;
   justify-content: space-around;
@@ -31,7 +30,7 @@ h2{
   font-size: 16px;
   border: none;
   border-radius: 5px;
-  transition: background-color 0.3s ease-out;
+  transition: background-color 0.2s ease-out;
   width: 250px;
 }
 
@@ -57,9 +56,17 @@ h2{
   display: flex;
   padding:auto;
   align-items: center;
+}
 
+.title_cat{
+  color: #545555;
+  font-size: 35px;
+  padding: 10px;
+  margin: 10px;
+  font-weight: bolder;
 
 }
+
 .navegador ul{
   display: none;
 }
@@ -84,8 +91,6 @@ h2{
   display: flex;
   align-items: center;
  
-
-
 }
 
 .footer {
@@ -116,6 +121,26 @@ footer img{
   flex-direction: column;
   width: auto;
   padding: 0px;
+}
+
+.central{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 80
+}
+
+.oferta {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+flex-direction: column;
+}
+
+.banner-oferta{
+  width: 576px;
+  height: 120px;
+  padding: 5px;
 }
 
 .container_card {
@@ -151,7 +176,7 @@ footer img{
   background-color: rgb(255, 130, 13);
   align-items: center;
   justify-content: center;
-  height: 50px;
+  height: 25px;
   margin: 1em;
   color: #fff;
   font-size: small;
@@ -259,9 +284,12 @@ footer img{
       justify-content:center;
       padding-top:20px
     }
- .card span{
-  font-weight: 600;
- }
+    .banner-oferta{
+      width: 784px;
+      height: 137px;
+      padding: 5px;
+    }
+      
 
 .navegador ul{
   display:block;
