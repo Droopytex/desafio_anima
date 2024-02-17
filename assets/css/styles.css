@@ -374,7 +374,7 @@ button p {
     height: 137px;
     padding: 5px;
     filter: grayscale(100%);
-    transition: filter 0.5s ease;
+    transition: filter 0.3s ease;
   }
   .banner-oferta:hover {
     filter: grayscale(0);
