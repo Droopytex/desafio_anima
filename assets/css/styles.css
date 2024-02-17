@@ -127,8 +127,116 @@ footer img{
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 80
+  height: 100vh;
+  overflow-y: scroll;
+
 }
+
+.contacto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+}
+.formulario{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+input{
+	background-color: #fbfbfb; 
+	width: 408px; 
+	height: 40px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: rgb(255, 140, 0); 
+	margin-top: 10px;  
+	padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+	width: 405px; 
+	height: 150px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color:rgb(255, 140, 0); 
+	margin-top: 10px;  
+	padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+	float: center; 	
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+a:hover{
+  color: #fff;
+}
+
+button{
+	height: 45px; 
+	padding-left: 5px;
+	padding-right: 5px; 	
+	margin-bottom: 20px; 
+	margin-top: 10px; 	
+	text-transform: uppercase;
+	background-color: rgb(255, 140, 0); 
+	border-color: rgb(255, 140, 0); 
+	border-style: solid; 
+	border-radius: 10px;	
+	width: 420px;   
+  cursor: pointer;
+}
+::-webkit-input-placeholder {
+  color: #a8a8a8;
+ }
+ 
+ 
+ ::-webkit-textarea-placeholder {
+  color: #a8a8a8;
+ }
+ 
+ 
+ .formulario input:focus{
+   outline:0;
+   border: 1px solid #97d848;
+ }
+ 
+ 
+ .formulario textarea:focus{
+   outline:0;
+   border: 1px solid #97d848;
+ }
+
+button p{
+	color: #fff; 
+}
+
+
+
+
+
+
+.aviso{
+	font-size: 13px;  
+	color: #0e0e0e;  
+}
+
 
 .oferta {
   display: flex;
@@ -148,6 +256,7 @@ flex-direction: column;
   flex-direction: column;
   align-items: center;
   gap: 5px;
+
 }
 
 
@@ -273,12 +382,12 @@ flex-direction: column;
   }
 
   .main{
-    grid-template-columns: 1f 1f 1f 1f ;
+    
     padding-top:20px;
     height: 100vh;
   }
     .container_card{
-      overflow: auto;
+      
       flex-direction: row;
       flex-wrap: wrap;
       justify-content:center;
