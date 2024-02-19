@@ -257,6 +257,11 @@ button p {
   padding-bottom: 10px;
 }
 
+.card img:hover {
+  scale: 1.1;
+  alt: 5s;
+}
+
 .boton {
   display: flex;
   width: 100%;
